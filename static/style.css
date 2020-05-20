@@ -1,0 +1,11 @@
+/* body */
+body {
+    margin: auto;
+    max-width: 580px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url("/static/20200417_020010.jpg");
+}
+
+.storylist{
+    font-size: 60px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ headline }}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+    </head>
+    <body>
+        
+        <h1>Welcome To The Story</h1>
+        <ul class="storylist">
+            <li>
+                <img alt="Avatar" src="{{ url_for('static', filename='fic1.png') }}">
+                <a href="{{ url_for('graphic1') }}">Chapter1</a>
+            </li>
+            <li>
+                <img alt="Avatar" src="{{ url_for('static', filename='fic1.png') }}">
+                <a href="{{ url_for('graphic2') }}">Chapter2</a>
+            </li>  
+            <li>
+                <img alt="Avatar" src="{{ url_for('static', filename='fic1.png') }}">
+                <a href="{{ url_for('graphic3') }}">Chapter3</a>
+            </li> 
+            <li>
+                <img alt="Avatar" src="{{ url_for('static', filename='fic1.png') }}">
+                <a href="{{ url_for('graphic4') }}">Chapter4</a>
+            </li>    
+            <li>
+                <img alt="Avatar" src="{{ url_for('static', filename='fic1.png') }}">
+                <a href="{{ url_for('graphic5') }}">Chapter5</a>
+            </li>    
+            <li>
+                <img alt="Avatar" src="{{ url_for('static', filename='fic1.png') }}">
+                <a href="{{ url_for('graphic6') }}">Chapter6</a>
+            </li>    
+        </ul>
+           
+    </body>
+</html>
